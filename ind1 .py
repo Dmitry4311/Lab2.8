@@ -1,10 +1,7 @@
-﻿#!/usr/bin/env python3
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import sys
-
-
-workers = []
 
 
 def get_route():
@@ -124,4 +121,5 @@ def main():
 
 
 if __name__ == '__main__':
+    workers = []
     main()
